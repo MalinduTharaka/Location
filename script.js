@@ -59,4 +59,4 @@ function showError(error) {
 }
 
 // Automatically fetch weather data when the page loads
-geolocation();
+//geolocation();
