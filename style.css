@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+    flex-direction: column; /* Change the flex direction to column */
+}
+
+#b1 {
+    margin-bottom: 10px; /* Add margin to the bottom of the button for spacing */
+    padding: 10px;
+    background-color: #ceadad;
+    color: #5e4c4c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the image */
+.icon {
+    width: 80px; 
+    height: 50px; 
+    margin-right: 5px; 
+}
+
+.weather-info {
+    display: block; /* Force the element to be a block-level element */
+    font-weight: bold;
+    border-style: dashed;
+    border-color: rgb(121, 234, 149);
+    background-color: aqua;
+}
